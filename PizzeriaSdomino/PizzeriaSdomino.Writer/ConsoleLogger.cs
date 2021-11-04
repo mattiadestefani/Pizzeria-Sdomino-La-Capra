@@ -12,15 +12,9 @@ namespace PizzeriaSdomino.Writer
         public override void Log(Scontrino ordine)
         {
             
-            Console.WriteLine($"Scontrino numero {ordine.idScontrino} - Elenco pizze: {String.Concat(ordine.listaPizze.Select(x=>x.basePizza), " ", ordine.listaPizze.Select(x => x.impastoPizza), " ", String.Concat(",",ordine.listaPizze.Select(x=>x.aggiuntePizza.Select(y=>y.descrizione))))}- Totale: {CalcolaPrezzo(ordine)}");
+            Console.WriteLine($"Scontrino numero {ordine.idScontrino} - Elenco pizze: {String.Concat(ordine.listaPizze.Select(x=>x.basePizza), " ", ordine.listaPizze.Select(x => x.impastoPizza), " ", String.Concat(",",ordine.listaPizze.Select(x=>x.aggiuntePizza.Select(y=>y.descrizione))))}- Totale: {ordine.listaPizze.Sum(x=>x.GetPrezzo())}");
         }
 
-        public decimal CalcolaPrezzo(Scontrino ordine)
-        {
-            if (ordine.listaPizze.Select(x => x.aggiuntePizza.Any(y => y.descrizione.Equals("Ananas"))))
-                return 0;
-
-            
-        }
+       
     }
 }
