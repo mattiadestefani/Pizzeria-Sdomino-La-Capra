@@ -1,8 +1,12 @@
 ﻿namespace PizzeriaSdomino.Model
 {
-    public class Crudo : IAggiunta
+    public class Crudo : Aggiunta
     {
-        public (decimal Prezzo, string Descrizione) GetAggiunta() => (2, this.GetType().Name);
+        public Crudo()
+        {
+            descrizione = "Crudo";
+            prezzo = 2;
+        }
     }
 
 

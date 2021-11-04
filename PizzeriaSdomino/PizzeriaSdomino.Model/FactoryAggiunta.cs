@@ -8,7 +8,7 @@ namespace PizzeriaSdomino.Model
 {
     public static class FactoryAggiunta
     {
-        public static IAggiunta AggiuntaBuilder(int aggiunta) => aggiunta switch
+        public static Aggiunta AggiuntaBuilder(int aggiunta) => aggiunta switch
         {
             0 => new Cotto(),
             1 => new Funghi(),

@@ -1,7 +1,11 @@
 ﻿namespace PizzeriaSdomino.Model
 {
-    public class Integrale : IImpasto
+    public class Integrale : Impasto
     {
-        public (decimal Prezzo, string Descrizione) GetImpasto() => (1, this.GetType().Name);
+        public Integrale()
+        {
+            descrizione = "Integrale";
+            prezzo = 1;
+        }
     }
 }

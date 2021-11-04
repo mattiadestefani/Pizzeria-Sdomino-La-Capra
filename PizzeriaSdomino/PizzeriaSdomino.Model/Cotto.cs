@@ -1,8 +1,13 @@
 ﻿namespace PizzeriaSdomino.Model
 {
-    public class Cotto : IAggiunta
+    public class Cotto : Aggiunta
     {
-        public (decimal Prezzo, string Descrizione) GetAggiunta() => (1, this.GetType().Name);
+        public Cotto()
+        {
+            descrizione = "Cotto";
+            prezzo = 1;
+        }
+       
     }
 
 

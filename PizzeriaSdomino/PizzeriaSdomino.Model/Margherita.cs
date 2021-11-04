@@ -1,7 +1,11 @@
 ﻿namespace PizzeriaSdomino.Model
 {
-    public class Margherita : IBase
+    public class Margherita : Base
     {
-        public (decimal Prezzo, string Descrizione) GetBase() => (5, this.GetType().Name);
+        public Margherita()
+        {
+            descrizione = "Margherita";
+            prezzo = 5;
+        }
     }
 }

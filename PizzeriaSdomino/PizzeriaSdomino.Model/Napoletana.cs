@@ -1,7 +1,11 @@
 ﻿namespace PizzeriaSdomino.Model
 {
-    public class Napoletana : IBase
+    public class Napoletana : Base
     {
-        public (decimal Prezzo, string Descrizione) GetBase() => (3,this.GetType().Name);
+        public Napoletana()
+        {
+            descrizione = "Napoletana";
+            prezzo = 3;
+        }
     }
 }

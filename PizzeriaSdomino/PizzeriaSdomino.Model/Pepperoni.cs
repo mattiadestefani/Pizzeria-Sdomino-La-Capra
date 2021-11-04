@@ -1,7 +1,11 @@
 ﻿namespace PizzeriaSdomino.Model
 {
-    public class Pepperoni : IBase
+    public class Pepperoni : Base
     {
-        public (decimal Prezzo, string Descrizione) GetBase() => (7, this.GetType().Name);
+        public Pepperoni()
+        {
+            descrizione = "Pepperoni";
+            prezzo = 7;
+        }
     }
 }

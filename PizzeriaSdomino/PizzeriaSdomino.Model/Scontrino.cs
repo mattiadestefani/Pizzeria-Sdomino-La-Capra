@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace PizzeriaSdomino.Model
 {
-    public interface IImpasto
+    public class Scontrino 
     {
-        (decimal Prezzo, string Descrizione) GetImpasto();
+        public int idScontrino;
+
+        public IEnumerable<Pizza> listaPizze;
+
+
     }
 }

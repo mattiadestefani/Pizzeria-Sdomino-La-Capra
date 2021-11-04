@@ -8,7 +8,7 @@ namespace PizzeriaSdomino.Model
 {
     public static class FactoryBase
     {
-        public static IBase BaseBuilder(int idBase) => idBase switch
+        public static Base BaseBuilder(int idBase) => idBase switch
         {
             0 => new Margherita(),
             1 => new Pepperoni(),

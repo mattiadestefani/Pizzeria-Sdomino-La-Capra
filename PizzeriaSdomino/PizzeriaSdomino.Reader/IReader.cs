@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PizzeriaSdomino.Model
+namespace PizzeriaSdomino.Reader
 {
-    public interface IAggiunta
+    public interface IReader
     {
-        (decimal Prezzo, string Descrizione) GetAggiunta();
+        int GetLastOrder();
     }
 }

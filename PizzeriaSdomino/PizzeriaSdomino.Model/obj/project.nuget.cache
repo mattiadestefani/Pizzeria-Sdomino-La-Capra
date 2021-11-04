@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "Cn76bNETkG3gcpiQeDho+iPhJ+t6U0LhksbK9nusJsEWwpVapVUQZXu3+J6GJIpfu9SJiWQV4/XuCfUHuvleGg==",
+  "dgSpecHash": "b++am8z4oDlvESAPgb4b5/lPwPhEBfjrwd7MHJBmSF7VD5/j7NmewX7R4yM7oJqgvp7nv+WPsr7WBhIeYDFy+w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mob13\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512"
+  ],
   "logs": []
 }

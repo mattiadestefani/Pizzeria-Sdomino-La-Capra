@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj": {}
+    "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Writer\\PizzeriaSdomino.Writer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj": {
+    "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Writer\\PizzeriaSdomino.Writer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj",
-        "projectName": "PizzeriaSdomino.Model",
-        "projectPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj",
+        "projectUniqueName": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Writer\\PizzeriaSdomino.Writer.csproj",
+        "projectName": "PizzeriaSdomino.Writer",
+        "projectPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Writer\\PizzeriaSdomino.Writer.csproj",
         "packagesPath": "C:\\Users\\mob13\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\obj\\",
+        "outputPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Writer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -42,12 +42,6 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "dependencies": {
-            "CsvHelper": {
-              "target": "Package",
-              "version": "[27.1.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
