@@ -1,11 +1,64 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CsvHelper/27.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/CsvHelper.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/CsvHelper.dll": {}
+        }
+      },
+      "PizzeriaSdomino.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CsvHelper": "27.1.1"
+        },
+        "compile": {
+          "bin/placeholder/PizzeriaSdomino.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/PizzeriaSdomino.Model.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CsvHelper/27.1.1": {
+      "sha512": "lo5yypClBORR2XiWPRxQApaA4C2R4GVCIPVRt9HfaLxLmVQtg/KZiOYsd4luLgyOxkUatF9R0QdFQYk7Y2l0cw==",
+      "type": "package",
+      "path": "csvhelper/27.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "csvhelper.27.1.1.nupkg.sha512",
+        "csvhelper.nuspec",
+        "lib/net45/CsvHelper.dll",
+        "lib/net45/CsvHelper.xml",
+        "lib/net47/CsvHelper.dll",
+        "lib/net47/CsvHelper.xml",
+        "lib/net5.0/CsvHelper.dll",
+        "lib/net5.0/CsvHelper.xml",
+        "lib/netstandard2.0/CsvHelper.dll",
+        "lib/netstandard2.0/CsvHelper.xml",
+        "lib/netstandard2.1/CsvHelper.dll",
+        "lib/netstandard2.1/CsvHelper.xml"
+      ]
+    },
+    "PizzeriaSdomino.Model/1.0.0": {
+      "type": "project",
+      "path": "../PizzeriaSdomino.Model/PizzeriaSdomino.Model.csproj",
+      "msbuildProject": "../PizzeriaSdomino.Model/PizzeriaSdomino.Model.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "PizzeriaSdomino.Model >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mob13\\.nuget\\packages\\": {},
@@ -37,7 +90,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj": {
+              "projectPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
