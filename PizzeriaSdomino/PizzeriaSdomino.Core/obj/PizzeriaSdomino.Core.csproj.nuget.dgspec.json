@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Core.csproj": {}
+    "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Core.csproj": {
+    "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Core.csproj",
+        "projectUniqueName": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Core.csproj",
         "projectName": "PizzeriaSdomino.Core",
-        "projectPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Core.csproj",
-        "packagesPath": "C:\\Users\\mob13\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\obj\\",
+        "projectPath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Core.csproj",
+        "packagesPath": "C:\\Users\\mob10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mob13\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mob10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

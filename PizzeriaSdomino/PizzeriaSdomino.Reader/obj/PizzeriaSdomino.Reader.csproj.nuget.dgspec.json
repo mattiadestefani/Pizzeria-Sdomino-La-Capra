@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Reader\\PizzeriaSdomino.Reader.csproj": {}
+    "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Reader\\PizzeriaSdomino.Reader.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj": {
+    "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj",
+        "projectUniqueName": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj",
         "projectName": "PizzeriaSdomino.Model",
-        "projectPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj",
-        "packagesPath": "C:\\Users\\mob13\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\obj\\",
+        "projectPath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj",
+        "packagesPath": "C:\\Users\\mob10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mob13\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mob10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,20 +67,20 @@
         }
       }
     },
-    "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Reader\\PizzeriaSdomino.Reader.csproj": {
+    "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Reader\\PizzeriaSdomino.Reader.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Reader\\PizzeriaSdomino.Reader.csproj",
+        "projectUniqueName": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Reader\\PizzeriaSdomino.Reader.csproj",
         "projectName": "PizzeriaSdomino.Reader",
-        "projectPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Reader\\PizzeriaSdomino.Reader.csproj",
-        "packagesPath": "C:\\Users\\mob13\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Reader\\obj\\",
+        "projectPath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Reader\\PizzeriaSdomino.Reader.csproj",
+        "packagesPath": "C:\\Users\\mob10\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Reader\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mob13\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mob10\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -94,8 +94,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj": {
-                "projectPath": "C:\\Users\\mob13\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj"
+              "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj": {
+                "projectPath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Model\\PizzeriaSdomino.Model.csproj"
               }
             }
           }

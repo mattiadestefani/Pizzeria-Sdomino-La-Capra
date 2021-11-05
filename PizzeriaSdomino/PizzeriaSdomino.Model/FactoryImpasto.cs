@@ -1,17 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace PizzeriaSdomino.Model
+﻿namespace PizzeriaSdomino.Model
 {
     public static class FactoryImpasto
     {
-        public static Impasto ImpastoBuilder(int impasto) => impasto switch
+        public static Impasto ImpastoBuilder(string impasto) => impasto switch
         {
-            0 => new Normale(),
-            1 => new Integrale(),
+            "Integrale" => new Integrale(),
             _ => new Normale()
         };
     }

@@ -9,6 +9,7 @@ namespace PizzeriaSdomino.Reader
 {
     public static class Connection
     {
-        public static SqlConnection GetConnection(string connectionString) => new SqlConnection(connectionString);
+        private static readonly string connectionstring = @"Server=UMANA-1-MULTI\SQLEXPRESS01; Database= Pizzeria;  Trusted_Connection=True;";
+        public static SqlConnection GetConnection() => new SqlConnection(connectionstring);
     }
 }

@@ -18,13 +18,10 @@ namespace PizzeriaSdomino.Model
             if (!aggiuntePizza.Any(x => x.descrizione.Equals("Ananas")))
             {
                 prezzoPizza += basePizza.prezzo + impastoPizza.prezzo + aggiuntePizza.Sum(x=>x.prezzo);
-                return prezzoPizza;
             } 
             return prezzoPizza;
         }
 
         public string GetPizza()=> String.Concat("Pizza " , basePizza.descrizione , " con impasto " , impastoPizza.descrizione , aggiuntePizza.Select(x => " e" + x.descrizione));
-      
-
     }
 }
