@@ -5,4 +5,10 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\PizzeriaSdomino.Model\PizzeriaSdomino.Model.csproj" />
+    <ProjectReference Include="..\PizzeriaSdomino.Reader\PizzeriaSdomino.Reader.csproj" />
+    <ProjectReference Include="..\PizzeriaSdomino.Writer\PizzeriaSdomino.Writer.csproj" />
+  </ItemGroup>
+
 </Project>

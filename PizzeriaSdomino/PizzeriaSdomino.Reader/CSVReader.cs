@@ -1,17 +1,14 @@
 ﻿using CsvHelper.Configuration;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.IO;
 using CsvHelper;
+using PizzeriaSdomino.Model;
 
 namespace PizzeriaSdomino.Reader
 {
     public class CSVReader
     {
-        public IEnumerable<PizzaCSV> GetOrdiniFromCSV(string pathname)
+        public IEnumerable<Pizza> GetOrdiniFromCSV(string pathname)
         {
             var configCSV = new CsvConfiguration(System.Globalization.CultureInfo.InvariantCulture);
             configCSV.HasHeaderRecord = true;
@@ -19,7 +16,8 @@ namespace PizzeriaSdomino.Reader
             using var streamreader = new StreamReader(pathname);
             using (var csvreader = new CsvReader(streamreader, configCSV))
             {
-                foreach (var row in csvreader.GetRecords<PizzaCSV>())
+                csvreader.Context.RegisterClassMap<CSVToppingMapper>();
+                foreach (var row in csvreader.GetRecords<Pizza>())
                 {
                     yield return row;
                 }

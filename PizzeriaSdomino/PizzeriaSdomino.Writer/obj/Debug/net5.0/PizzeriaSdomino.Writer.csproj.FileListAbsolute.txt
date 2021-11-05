@@ -1,0 +1,17 @@
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\bin\Debug\net5.0\PizzeriaSdomino.Writer.deps.json
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\bin\Debug\net5.0\PizzeriaSdomino.Writer.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\bin\Debug\net5.0\ref\PizzeriaSdomino.Writer.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\bin\Debug\net5.0\PizzeriaSdomino.Writer.pdb
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\bin\Debug\net5.0\PizzeriaSdomino.Model.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\bin\Debug\net5.0\PizzeriaSdomino.Reader.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\bin\Debug\net5.0\PizzeriaSdomino.Model.pdb
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\bin\Debug\net5.0\PizzeriaSdomino.Reader.pdb
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\obj\Debug\net5.0\PizzeriaSdomino.Writer.csproj.AssemblyReference.cache
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\obj\Debug\net5.0\PizzeriaSdomino.Writer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\obj\Debug\net5.0\PizzeriaSdomino.Writer.AssemblyInfoInputs.cache
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\obj\Debug\net5.0\PizzeriaSdomino.Writer.AssemblyInfo.cs
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\obj\Debug\net5.0\PizzeriaSdomino.Writer.csproj.CoreCompileInputs.cache
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\obj\Debug\net5.0\PizzeriaSdomino.Writer.csproj.CopyComplete
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\obj\Debug\net5.0\PizzeriaSdomino.Writer.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\obj\Debug\net5.0\ref\PizzeriaSdomino.Writer.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Writer\obj\Debug\net5.0\PizzeriaSdomino.Writer.pdb

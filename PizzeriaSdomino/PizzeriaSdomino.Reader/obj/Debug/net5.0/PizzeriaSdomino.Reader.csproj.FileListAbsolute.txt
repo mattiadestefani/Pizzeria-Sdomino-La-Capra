@@ -1,0 +1,15 @@
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\bin\Debug\net5.0\PizzeriaSdomino.Reader.deps.json
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\bin\Debug\net5.0\PizzeriaSdomino.Reader.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\bin\Debug\net5.0\ref\PizzeriaSdomino.Reader.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\bin\Debug\net5.0\PizzeriaSdomino.Reader.pdb
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\bin\Debug\net5.0\PizzeriaSdomino.Model.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\bin\Debug\net5.0\PizzeriaSdomino.Model.pdb
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\obj\Debug\net5.0\PizzeriaSdomino.Reader.csproj.AssemblyReference.cache
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\obj\Debug\net5.0\PizzeriaSdomino.Reader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\obj\Debug\net5.0\PizzeriaSdomino.Reader.AssemblyInfoInputs.cache
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\obj\Debug\net5.0\PizzeriaSdomino.Reader.AssemblyInfo.cs
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\obj\Debug\net5.0\PizzeriaSdomino.Reader.csproj.CoreCompileInputs.cache
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\obj\Debug\net5.0\PizzeriaSdomino.Reader.csproj.CopyComplete
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\obj\Debug\net5.0\PizzeriaSdomino.Reader.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\obj\Debug\net5.0\ref\PizzeriaSdomino.Reader.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Reader\obj\Debug\net5.0\PizzeriaSdomino.Reader.pdb

@@ -13,7 +13,8 @@ namespace PizzeriaSdomino.Writer
         public override void Log(Scontrino ordine)
         {
             base.Log(ordine);
-            File.WriteAllLines(String.Concat(ordine.idScontrino,".csv"), ordine.listaPizze.Select(x => $"{x.basePizza} {x.impastoPizza} {x.aggiuntePizza.Select(y => $", {y.descrizione}")} => {x.GetPrezzo()}"));
+            File.WriteAllLines(@"C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\output\"+ordine.idScontrino+".csv", ordine.listaPizze.Select(x => $"{x.basePizza.descrizione} {x.impastoPizza.descrizione}{String.Concat(x.aggiuntePizza.Select(y => $", {y.descrizione}"))} => {x.GetPrezzo()}"));
+            File.AppendAllText(@"C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\output\" +ordine.idScontrino + ".csv",$"Totale ordine : {ordine.listaPizze.Sum(x => x.GetPrezzo())}");
         }
     }
 }

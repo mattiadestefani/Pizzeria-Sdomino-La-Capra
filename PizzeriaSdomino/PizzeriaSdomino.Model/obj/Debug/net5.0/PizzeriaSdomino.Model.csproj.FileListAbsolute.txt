@@ -1,0 +1,12 @@
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\bin\Debug\net5.0\PizzeriaSdomino.Model.deps.json
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\bin\Debug\net5.0\PizzeriaSdomino.Model.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\bin\Debug\net5.0\ref\PizzeriaSdomino.Model.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\bin\Debug\net5.0\PizzeriaSdomino.Model.pdb
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\obj\Debug\net5.0\PizzeriaSdomino.Model.csproj.AssemblyReference.cache
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\obj\Debug\net5.0\PizzeriaSdomino.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\obj\Debug\net5.0\PizzeriaSdomino.Model.AssemblyInfoInputs.cache
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\obj\Debug\net5.0\PizzeriaSdomino.Model.AssemblyInfo.cs
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\obj\Debug\net5.0\PizzeriaSdomino.Model.csproj.CoreCompileInputs.cache
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\obj\Debug\net5.0\PizzeriaSdomino.Model.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\obj\Debug\net5.0\ref\PizzeriaSdomino.Model.dll
+C:\Users\mob10\source\repos\Pizzeria-Sdomino-La-Capra\PizzeriaSdomino\PizzeriaSdomino.Model\obj\Debug\net5.0\PizzeriaSdomino.Model.pdb

@@ -9,24 +9,19 @@ using System.Threading.Tasks;
 
 namespace PizzeriaSdomino.Reader
 {
-    public class CSVToppingMapper:ClassMap<PizzaCSV>
+    public class CSVToppingMapper:ClassMap<Pizza>
     {
         public CSVToppingMapper()
         {
-            Map(x => x.basePizza).Name("BasePizza");
-            Map(x => x.impasto).Name("Impasto");
-            Map(x => x.aggiunte).Convert(x=>myConverter(x.Row.GetField("Ingredienti")));
+            Map(x => x.basePizza).Convert(x=>ConvertiBase(x.Row.GetField("BasePizza")));
+            Map(x => x.impastoPizza).Convert(x => ConvertiImpasto(x.Row.GetField("Impasto")));
+            Map(x => x.aggiuntePizza).Convert(x=>myConverter(x.Row.GetField("Ingredienti")));
         }
 
-        public List<string> myConverter(string text)
-        {
-            var arrayTemp = text.Split(",");
-            var listTemp = new List<string>();
-            for (var i=0; i< arrayTemp.Length; i++)
-            {
-                listTemp.Add(arrayTemp[i]);
-            }
-            return listTemp;
-        }
+        private IEnumerable<Aggiunta> myConverter(string text) => text.Split(", ").Select(x => FactoryAggiunta.AggiuntaBuilder(x));
+        private Base ConvertiBase(string baseName) => FactoryBase.BaseBuilder(baseName);
+        private Impasto ConvertiImpasto(string impasto) => FactoryImpasto.ImpastoBuilder(impasto);
+
+
     }
 }
