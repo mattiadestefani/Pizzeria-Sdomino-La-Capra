@@ -20,16 +20,17 @@ namespace PizzeriaSdomino.Writer
             using var command = new SqlCommand(query, connection);
             command.Parameters.AddWithValue("@totale", ordine.listaPizze.Sum(x => x.GetPrezzo()));
             var idscontrino = Convert.ToInt32(command.ExecuteScalar());
-            foreach(var pizza in ordine.listaPizze)
+            query = @"INSERT INTO dbo.Pizza (Base,Impasto,Aggiunta,Prezzo,IdScontrino) VALUES (@base,@impasto,@aggiunta,@prezzo,@idscontrino)";
+            
+            foreach (var pizza in ordine.listaPizze)
             {
-                query = @"INSERT INTO dbo.Pizza (Base,Impasto,Aggiunta,Prezzo,IdScontrino) VALUES (@base,@impasto,@aggiunta,@prezzo,@idscontrino)";
                 using var commandSecond = new SqlCommand(query, connection);
                 commandSecond.Parameters.AddWithValue("@base", pizza.basePizza.descrizione);
                 commandSecond.Parameters.AddWithValue("@impasto", pizza.impastoPizza.descrizione);
                 commandSecond.Parameters.AddWithValue("@aggiunta", String.Concat(pizza.aggiuntePizza.Select(x => $", {x.descrizione}")));
                 commandSecond.Parameters.AddWithValue("@prezzo", pizza.GetPrezzo());
                 commandSecond.Parameters.AddWithValue("@idscontrino", idscontrino);
-                command.ExecuteNonQuery();
+                commandSecond.ExecuteNonQuery();
             }
         }
     }

@@ -17,16 +17,16 @@ namespace PizzeriaSdomino.Core
         public static void Engine()
         {
             var listOfCsv = new DirectoryInfo(pathFile);
-            foreach(var file in listOfCsv.GetFiles())
+            var writeOnConsole = new ConsoleLogger();
+            var writeOnFile = new FileLogger(writeOnConsole);
+            var writeOnSql = new SqlLogger(writeOnFile);
+            foreach (var file in listOfCsv.GetFiles())
             {
                 var scontrino = new Scontrino()
                 {
                     idScontrino = Convert.ToInt32(file.Name.Split(".")[0])
                 };
                 scontrino.listaPizze = new CSVReader().GetOrdiniFromCSV(file.FullName);
-                var writeOnConsole = new ConsoleLogger();
-                var writeOnFile = new FileLogger(writeOnConsole);
-                var writeOnSql = new SqlLogger(writeOnFile);
                 writeOnSql.Log(scontrino);
             }
         }

@@ -548,9 +548,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Core.csproj",
-      "projectName": "PizzeriaSdomino.Core",
-      "projectPath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Core.csproj",
+      "projectUniqueName": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Console.csproj",
+      "projectName": "PizzeriaSdomino.Console",
+      "projectPath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Console.csproj",
       "packagesPath": "C:\\Users\\mob10\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\obj\\",
       "projectStyle": "PackageReference",

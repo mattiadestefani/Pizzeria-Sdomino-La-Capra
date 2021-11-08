@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aQfrRDWpSYK1Bj0PoHBVKqpn/5PGGo5KuzL/Ymw+NvpZR2LziVJ3nwIQ4e8WqzZJCTWM5OnZdLl0HG+8I34N0w==",
+  "dgSpecHash": "qrwvl/bcFP9Kqfc28MH8QwRhjSCpGUgC4dipNfrzLDxzA/l4PEdfkKCL5+tsqfa7DywZePGc+lYOs+uEcdZ8+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Core.csproj",
+  "projectFilePath": "C:\\Users\\mob10\\source\\repos\\Pizzeria-Sdomino-La-Capra\\PizzeriaSdomino\\PizzeriaSdomino.Core\\PizzeriaSdomino.Console.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mob10\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512",
     "C:\\Users\\mob10\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

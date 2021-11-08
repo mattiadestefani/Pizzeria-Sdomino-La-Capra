@@ -11,7 +11,8 @@ namespace PizzeriaSdomino.Writer
         {
             Console.WriteLine($"Scontrino numero {ordine.idScontrino} - Elenco pizze:");
             Console.WriteLine(Environment.NewLine);
-            Console.WriteLine($"{String.Concat(ordine.listaPizze.Select(x => x.GetPizza()), " prezzo:",ordine.listaPizze.Select(x => x.GetPrezzo()))} Totale Ordine {ordine.listaPizze.Sum(x => x.GetPrezzo())}"); 
+            Console.Write(String.Concat(ordine.listaPizze.Select(x => $"{ x.basePizza.descrizione} {x.impastoPizza.descrizione} {String.Concat(x.aggiuntePizza.Select(y => $", {y.descrizione}"))} prezzo {x.GetPrezzo()}{Environment.NewLine}")));
+            Console.WriteLine($"Totale ordine :{ordine.listaPizze.Sum(x => x.GetPrezzo())}");
         }
     }
 }
