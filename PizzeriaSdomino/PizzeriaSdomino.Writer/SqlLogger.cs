@@ -3,18 +3,21 @@ using PizzeriaSdomino.Model;
 using PizzeriaSdomino.Reader;
 using System.Data.SqlClient;
 using System;
+using Microsoft.Extensions.Configuration;
 
 namespace PizzeriaSdomino.Writer
 {
     public class SqlLogger : AuditDecorator
     {
-        public SqlLogger(FileLogger logger) : base(logger)
+        private readonly IConfiguration _configuration;
+        public SqlLogger(IAudit logger, IConfiguration configuration) : base(logger)
         {
+            _configuration = configuration;
         }
         public override void Log(Scontrino ordine)
         {
             base.Log(ordine);
-            using var connection = Connection.GetConnection();
+            using var connection = new SqlConnection(_configuration["connection"]);
             connection.Open();
             var query = @"INSERT INTO dbo.Scontrino (Totale) VALUES (@totale) SELECT SCOPE_IDENTITY();";
             using var command = new SqlCommand(query, connection);

@@ -6,7 +6,7 @@ using PizzeriaSdomino.Model;
 
 namespace PizzeriaSdomino.Reader
 {
-    public class CSVReader
+    public class CSVReader : IReader
     {
         public IEnumerable<Pizza> GetOrdiniFromCSV(string pathname)
         {

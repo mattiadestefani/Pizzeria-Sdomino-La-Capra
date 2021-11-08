@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PizzeriaSdomino.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,6 @@ namespace PizzeriaSdomino.Reader
 {
     public interface IReader
     {
-        int GetLastOrder();
+        IEnumerable<Pizza> GetOrdiniFromCSV(string pathname);
     }
 }

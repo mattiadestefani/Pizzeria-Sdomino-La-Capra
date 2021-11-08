@@ -1,9 +1,8 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using PizzeriaSdomino.Service;
+using PizzeriaSdomino.Reader;
+using PizzeriaSdomino.Writer;
 
 namespace Pizzeria.Service
 {
@@ -18,6 +17,11 @@ namespace Pizzeria.Service
             Host.CreateDefaultBuilder(args)
                 .ConfigureServices((hostContext, services) =>
                 {
+                    services.AddSingleton<PizzeriaCore>();
+                    services.AddSingleton<IAudit, ConsoleLogger>();
+                    services.Decorate<IAudit, FileLogger>();
+                    services.Decorate<IAudit, SqlLogger>();
+                    services.AddSingleton<IReader, CSVReader>();
                     services.AddHostedService<Worker>();
                 });
     }

@@ -4,8 +4,8 @@ namespace PizzeriaSdomino.Writer
 {
     public abstract class AuditDecorator : Audit
     {
-        private readonly Audit _audit;
-        public AuditDecorator(Audit aud)
+        private readonly IAudit _audit;
+        public AuditDecorator(IAudit aud)
         {
             _audit = aud;
         }
